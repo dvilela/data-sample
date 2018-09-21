@@ -1,0 +1,60 @@
+[
+  {
+    "event": "updated.student",
+    "event_id": 5000,
+    "data": [
+      {
+        "id": "1234",
+        "gender": "M",
+        "name": {
+          "first_name": "Alex",
+          "last_name": "Balmer"
+        },
+        "grade": "8"
+      },
+      {
+        "id": "5678",
+        "gender": "F",
+        "name": {
+          "last_name": "Doe",
+          "first_name": "Jane"
+        },
+        "grade": "8"
+      }
+    ]
+  },
+  {
+    "event": "deleted.student",
+    "event_id": 5001,
+    "data": [
+      {
+        "id": "2345",
+        "gender": "M",
+        "name": {
+          "first_name": "John",
+          "last_name": "Doe "
+        },
+        "grade": "8"
+      }
+    ]
+  },
+  {
+    "event": "updated.teacher",
+    "event_id": 5002,
+    "data": [
+      {
+        "id": "34",
+        "email": "dmcvilela@foo.us.com",
+        "gender": "M",
+        "name": {
+          "first_name": "Denise",
+          "last_name": "McVilela"
+        },
+        "students": [
+          "1234",
+          "5678"
+        ]
+      }
+    ]
+  }
+]
